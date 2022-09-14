@@ -6,3 +6,11 @@ body {
 a, body {
 	color: #FF9652;
 }
+
+img {
+	height: 400px;
+}
+
+div {
+	text-align: center;
+}
