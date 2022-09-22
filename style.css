@@ -1,16 +1,28 @@
 body {
-	font-family: Arial, Helvetica, serif;
-	background-color: #111;
+  font-family: Arial, Helvetica, serif;
+  background-color: #131313;
+  width: min(100% - 2rem, 600px);
+  margin-inline: auto;
 }
 
 a, body {
-	color: #FF9652;
+  color: #FF8424;
 }
 
 img {
-	height: 400px;
+  max-width: min(100%, 400px);
+  margin: 0 auto;
+  display: block;
+  box-sizing: border-box;
 }
 
-div {
-	text-align: center;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.header a {
+  width: 20%;
 }
